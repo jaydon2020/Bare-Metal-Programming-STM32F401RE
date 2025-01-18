@@ -56,6 +56,8 @@ CSTD		?= -std=c99
 
 OBJS		+= $(SRC_DIR)/$(BINARY).o
 OBJS		+= $(SRC_DIR)/bootloader.o
+OBJS		+= $(SRC_DIR)/timer.o
+OBJS		+= $(SRC_DIR)/system.o
 
 ###############################################################################
 # C flags
